@@ -1,0 +1,11 @@
+[package]
+name = "pyraft-rs"
+version = "0.1.0"
+authors = ["c86j224s"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.1"
+
+[profile.release]
+debug = true
